@@ -3,7 +3,8 @@ Official code for our paper "Predicting Decisions in Language Based Persuasion G
 
 **Authors:**
 
-[Reut Apel](https://scholar.google.com/citations?user=g_GPV9AAAAAJ&hl=en), Ido Erev, Roi Reichart, Moshe Tennenholtz
+[Reut Apel](https://scholar.google.com/citations?user=g_GPV9AAAAAJ&hl=en), [Ido Erev](https://scholar.google.com/citations?hl=en&user=cWQCd0oAAAAJ), 
+[Roi Reichart](https://scholar.google.com/citations?hl=en&user=xXJIsh4AAAAJ), [Moshe Tennenholtz](https://scholar.google.com/citations?hl=en&user=65FCPpwAAAAJ)
 
 **Abstract:**
 
