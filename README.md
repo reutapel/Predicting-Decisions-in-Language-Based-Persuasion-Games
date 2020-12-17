@@ -2,9 +2,11 @@
 Official code for our paper "Predicting Decisions in Language Based Persuasion Games" 
 
 **Authors:**
+
 [Reut Apel](https://scholar.google.com/citations?user=g_GPV9AAAAAJ&hl=en), Ido Erev, Roi Reichart, Moshe Tennenholtz
 
 **Abstract:**
+
 Sender-receiver interactions, and specifically persuasion games, are widely researched in economic modeling and artificial intelligence, and serve as a solid foundation for powerful applications. However, in the classic persuasion games setting, the messages sent from the expert to the decision-maker are abstract or well-structured application-specific signals rather than natural (human) language messages, although natural language is a very common communication signal in real-world persuasion setups. This paper addresses the use of natural language in persuasion games, exploring its impact on the decisions made by the players and aiming to construct effective models for the prediction of these decisions.
 
 For this purpose, we conduct an online repeated interaction experiment. At each trial of the interaction, an informed expert aims to sell an uninformed decision-maker a vacation in a hotel, by sending her a review that describes the hotel. While the expert is exposed to several scored reviews, the decision-maker observes only the single review sent by the expert, and her payoff in case she chooses to take the hotel is a random draw from the review score distribution available to the expert only. The expert's payoff, in turn, depends on the number of times the decision-maker chooses the hotel. 
