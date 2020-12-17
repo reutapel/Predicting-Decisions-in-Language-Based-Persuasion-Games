@@ -93,7 +93,7 @@ def execute_create_fit_predict_eval_model(
     return all_models_results
 
 
-# @ray.remote
+@ray.remote
 def execute_fold_parallel(participants_fold: pd.Series, fold: int, cuda_device: str,
                           hyper_parameters_tune_mode: bool=False, model_nums_list: list=None):
     """
