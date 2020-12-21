@@ -13,3 +13,6 @@ Sender-receiver interactions, and specifically persuasion games, are widely rese
 For this purpose, we conduct an online repeated interaction experiment. At each trial of the interaction, an informed expert aims to sell an uninformed decision-maker a vacation in a hotel, by sending her a review that describes the hotel. While the expert is exposed to several scored reviews, the decision-maker observes only the single review sent by the expert, and her payoff in case she chooses to take the hotel is a random draw from the review score distribution available to the expert only. The expert's payoff, in turn, depends on the number of times the decision-maker chooses the hotel. 
 
 We consider a number  of modeling approaches for this setup, differing from each other in the model type (deep neural network (DNN) vs. linear classifier), the type of features used by the model (textual, behavioral or both) and the source of the textual features (DNN-based vs. hand-crafted). Our results demonstrate that given a prefix of the interaction sequence, our models can predict the future decisions of the decision-maker, particularly when a sequential modeling approach and hand-crafted textual features are applied.
+
+**Links**
+[Paper](https://arxiv.org/abs/2012.09966)
