@@ -15,4 +15,5 @@ For this purpose, we conduct an online repeated interaction experiment. At each 
 We consider a number  of modeling approaches for this setup, differing from each other in the model type (deep neural network (DNN) vs. linear classifier), the type of features used by the model (textual, behavioral or both) and the source of the textual features (DNN-based vs. hand-crafted). Our results demonstrate that given a prefix of the interaction sequence, our models can predict the future decisions of the decision-maker, particularly when a sequential modeling approach and hand-crafted textual features are applied.
 
 **Links**
-[Paper](https://arxiv.org/abs/2012.09966)
+
+**[Paper](https://arxiv.org/abs/2012.09966)**
