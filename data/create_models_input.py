@@ -809,12 +809,12 @@ def main():
                                               'suffix_no_current_round_average_text'])
 
     if use_prefix_suffix_setting:
-        if create_save_data_obj.prefix_data_in_sequence:  # (LSTM, Trensformer)
+        if create_save_data_obj.prefix_data_in_sequence:  # (LSTM, Transformer)
             create_save_data_obj.create_features_for_prefix_suffix_models(string_labels=string_labels)
         if create_save_data_obj.non_nn_turn_model:  # flat the prefix data for the non_nn_turn_model (MVC, EWG)
             create_save_data_obj.create_non_nn_turn_model_features()
     else:
-        create_save_data_obj.create_manual_features_data()  # SVM-TR, MED, AVG
+        create_save_data_obj.create_manual_features_data()  # SVM-CR, MED, AVG
 
 
 if __name__ == '__main__':
